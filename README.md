@@ -1,1 +1,1 @@
-# django-twitterclone
+# Javascript tip calculator
