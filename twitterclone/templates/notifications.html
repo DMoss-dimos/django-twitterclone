@@ -1,0 +1,9 @@
+<h1>Notifications</h1>
+{% for notice in notice_p%}
+ <ul>
+    <li>
+        You were mentioned in a tweet posted by {{notice.tweet.post_author}}
+    </li>
+
+ </ul>
+ {%endfor%}
